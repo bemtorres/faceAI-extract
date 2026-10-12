@@ -1,0 +1,21 @@
+{
+  "name": "faceAI-extract",
+  "version": "1.0.0",
+  "description": "Descarga 30 fotos de thispersondoesnotexist.com, las redimensiona a 150x180 y las convierte a WebP manteniendo el nombre.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "download": "node index.js"
+  },
+  "keywords": [
+    "faces",
+    "thispersondoesnotexist",
+    "sharp",
+    "webp"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.34.4"
+  }
+}
